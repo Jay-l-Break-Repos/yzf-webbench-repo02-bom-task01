@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="browser"></div>
+    <div class="browser">
+      <div class="topbar">
+        <div class="toolbar"></div>
+        <select class="address">
+          <option value="docs/intro.html">Introduction</option>
+          <option value="docs/javascript.html">JavaScript</option>
+          <option value="docs/css.html">CSS</option>
+          <option value="docs/html.html">HTML</option>
+          <option value="docs/nodejs.html">Node.js</option>
+        </select>
+        <div class="setting"></div>
+      </div>
+      <iframe class="content" name="content" src="docs/intro.html"></iframe>
+    </div>
     <script type="module" src="index.js"></script>
   </body>
 </html>
